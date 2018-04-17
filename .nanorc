@@ -1,0 +1,22 @@
+set autoindent
+set matchbrackets "(<[{)>]}"
+set linenumbers
+bind ^w cut main
+bind M-w copytext main
+bind ^s whereis main
+bind ^@ mark main
+bind M-g gotoline main
+unbind ^g main
+bind ^y uncut main
+bind ^u undo main
+bind M-u redo main
+bind ^g cancel all
+bind M-< firstline main
+bind M-> lastline main
+bind M-V pageup main
+include "/usr/share/nano/c.nanorc"
+include "/usr/share/nano/python.nanorc"
+include "/usr/share/nano/java.nanorc"
+include "/usr/share/nano/nanorc.nanorc"
+include "/usr/share/nano/sh.nanorc"
+include "/usr/share/nano/elisp.nanorc"

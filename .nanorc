@@ -1,6 +1,7 @@
 set autoindent
 set matchbrackets "(<[{)>]}"
 set linenumbers
+set nowrap
 bind ^w cut main
 bind M-w copytext main
 bind ^s whereis main
@@ -14,9 +15,5 @@ bind ^g cancel all
 bind M-< firstline main
 bind M-> lastline main
 bind M-V pageup main
-include "/usr/share/nano/c.nanorc"
-include "/usr/share/nano/python.nanorc"
-include "/usr/share/nano/java.nanorc"
-include "/usr/share/nano/nanorc.nanorc"
-include "/usr/share/nano/sh.nanorc"
-include "/usr/share/nano/elisp.nanorc"
+bind M-% replace main
+include "/usr/share/nano/*.nanorc"

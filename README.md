@@ -1,2 +1,2 @@
 # mynanorc
-emacs like nanorc
+nanorc like emacs

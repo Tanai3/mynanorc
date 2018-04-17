@@ -1,0 +1,2 @@
+# mynanorc
+emacs like nanorc
